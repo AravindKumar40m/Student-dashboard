@@ -1,7 +1,7 @@
 import { Chart as ChartJs, ArcElement, Tooltip, Legend } from "chart.js";
 
 import { Pie, Doughnut } from "react-chartjs-2";
-import gradeCount from "../pages/gradeCount";
+import gradeCount from "../utils/gradeCount";
 
 ChartJs.register(ArcElement, Tooltip, Legend);
 

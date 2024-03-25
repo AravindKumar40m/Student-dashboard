@@ -1,10 +1,6 @@
 import React from "react";
 
-import { SearchSelect, SearchSelectItem } from "@tremor/react";
-// import AttendanceChart from "../Charts/AttendanceChart";
 import BoxPlotChart from "../Charts/AttendanceChart";
-import RankingPolarAreaChart from "../Charts/RankingPolarAreaChart";
-import OverAllGradeChart from "../Charts/OverAllGradeChart";
 
 const YearFilter = ({ Student }) => {
   return (
@@ -50,17 +46,10 @@ const YearFilter = ({ Student }) => {
 
       <div>
         <p className="flex justify-center items-center text-4xl font-bold p-5">
-          Attendace Traking
+          Attendance Tracking
         </p>
         <BoxPlotChart Student={Student} />
       </div>
-
-      {/* <div>
-        <OverAllGradeChart Student={Student} />
-      </div> */}
-      {/* <div>
-        <RankingPolarAreaChart id={id} />
-      </div> */}
     </div>
   );
 };

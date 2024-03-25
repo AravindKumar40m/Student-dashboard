@@ -1,6 +1,6 @@
 import React from "react";
 import db from "../data/db.json";
-import gradeCount from "../pages/gradeCount";
+import gradeCount from "../utils/gradeCount";
 import GradeCountLineChart from "../Charts/GradeCountLineChart";
 import GradeCountPieChart from "../Charts/GradeCountPieChart";
 import OverAllGradeChart from "../Charts/OverAllGradeChart";

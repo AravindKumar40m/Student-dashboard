@@ -7,9 +7,9 @@ import {
 } from "chart.js";
 
 import { PolarArea } from "react-chartjs-2";
-import gradePoints from "../pages/gradepoints";
+import gradePoints from "../utils/gradepoints";
 import db from "../data/db.json";
-import gpa from "../pages/gpa";
+import gpa from "../utils/gpa";
 
 ChartJs.register(ArcElement, Tooltip, Legend, RadialLinearScale);
 

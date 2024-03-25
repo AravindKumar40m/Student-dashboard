@@ -2,8 +2,8 @@ import React from "react";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-quartz.css";
-import gpa from "../pages/gpa";
-import gradePoints from "../pages/gradepoints";
+import gpa from "../utils/gpa";
+import gradePoints from "../utils/gradepoints";
 import { OverAllGpaAreaChart } from "../Charts/OverAllGpaAreachart";
 import { OverAllCgpaProgressChart } from "../Charts/OverAllCgpaProgressChart";
 import RankingPolarAreaChart from "../Charts/RankingPolarAreaChart";
@@ -76,7 +76,7 @@ const Home = ({ Student, id }) => {
 
         <div
           className="ag-theme-quartz gap-4 absolute top-[270px] left-[700px]"
-          style={{ height: 310, width: 410 }}
+          style={{ height: 320, width: 410 }}
         >
           <p className="text-3xl font-extrabold p-16">GPA Table</p>
           <AgGridReact rowData={rowdata} columnDefs={columnDefs} />
