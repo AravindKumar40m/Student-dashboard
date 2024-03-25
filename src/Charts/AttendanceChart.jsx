@@ -39,7 +39,6 @@ const BoxPlotChart = ({ Student }) => {
         .map((m) => m.attendance_percentage)
     );
   }
-  console.log(sem);
 
   const data = {
     labels: labels,

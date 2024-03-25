@@ -4,6 +4,7 @@ const dataFormatter = (number) =>
   Intl.NumberFormat("us").format(number).toString();
 
 export function OverAllGpaAreaChart({ gpa }) {
+  console.log(gpa);
   return (
     <AreaChart
       className="h-80"

@@ -79,7 +79,7 @@ const RankingPolarAreaChart = ({ id }) => {
 
   return (
     <div className="flex flex-col justify-center items-center p-10 gap-10 text-4xl ">
-      <p className="text-[#003366] font-extrabold">OverAllCgpa</p>
+      <p className="text-[#003366] font-extrabold">All CGPA in Class</p>
 
       <div className="h-[400px] w-[400px]">
         <PolarArea data={data} options={option}></PolarArea>

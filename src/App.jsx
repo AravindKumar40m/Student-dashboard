@@ -5,6 +5,7 @@ import Attendance from "./components/Attendace";
 import Login from "./components/Login";
 import { useState } from "react";
 import Grades from "./components/Grades";
+import Compare from "./components/Compare";
 
 function App() {
   const [isLogin, setIsLogin] = useState(false);
@@ -25,6 +26,7 @@ function App() {
           <Route path="/home" element={<Home Student={student} id={id} />} />
           <Route path="/year" element={<Attendance Student={student} />} />
           <Route path="/grade" element={<Grades Student={student} />} />
+          <Route path="/compare" element={<Compare Student={student} />} />
         </Route>
       </Routes>
     </BrowserRouter>

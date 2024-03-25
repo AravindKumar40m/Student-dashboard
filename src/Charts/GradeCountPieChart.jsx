@@ -5,8 +5,6 @@ import { Pie } from "react-chartjs-2";
 ChartJs.register(ArcElement, Tooltip, Legend);
 
 const GradeCountPieChart = ({ val }) => {
-  console.log(val);
-
   const data = {
     labels: ["O", "A+", "A", "B+", "B", "C", "RA"],
     datasets: [

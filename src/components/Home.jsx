@@ -63,7 +63,10 @@ const Home = ({ Student, id }) => {
           </Card>
         </div>
 
-        <div className="flex justify-center items-center absolute  left-[550px] top-[130px]">
+        <div className="flex justify-center items-center absolute  left-[700px] top-[90px]">
+          <p className="text-center font-bold  text-2xl text-blue-500 p-4 ">
+            Overall-CGPA
+          </p>
           <OverAllCgpaProgressChart cgpa={overallCGPA} />
         </div>
 

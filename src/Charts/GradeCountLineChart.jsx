@@ -11,7 +11,6 @@ import { Line } from "react-chartjs-2";
 ChartJs.register(LineElement, CategoryScale, LinearScale, PointElement);
 
 const GradeCountLineChart = ({ val }) => {
-  console.log(val);
   const data = {
     labels: ["O", "A+", "A", "B+", "B", "C", "RA"],
     datasets: [
