@@ -12,8 +12,6 @@ import {
 ChartJs.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 const BoxPlotChart = ({ Student }) => {
-  // Sample data for box plot
-
   let semesters = [];
 
   let semestersCount = 0;

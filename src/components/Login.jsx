@@ -7,14 +7,13 @@ import bookImage from "../assets/loginBg2.jpg";
 function LoginForm({ setIsLogin, setStudent }) {
   const [RollNo, setRollNo] = useState("");
   const [pass, setPass] = useState("");
-  const [isLoading, setIsLoading] = useState(false); // Assuming `isLoading` state is managed locally
+  const [isLoading, setIsLoading] = useState(false);
   const [valid, setValid] = useState("");
 
   const navigate = useNavigate();
 
   function handleSubmit(e) {
     e.preventDefault();
-    // console.log(RollNo, pass);
 
     const data = db.find(
       (d) => d.rollNo === Number(RollNo) && d.password === Number(pass)

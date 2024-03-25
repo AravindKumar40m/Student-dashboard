@@ -23,7 +23,7 @@ const RankingPolarAreaChart = ({ id }) => {
           semesters.push({
             semester: semester.semester,
             grade: subject.grade,
-            points: gradePoints(subject.grade), // Assuming you have a function to calculate grade points
+            points: gradePoints(subject.grade),
             credit: subject.credit,
           });
         });
@@ -71,13 +71,6 @@ const RankingPolarAreaChart = ({ id }) => {
           index + 1 === id ? "rgb(255, 99, 132)" : "rgb(255, 205, 86)"
         ),
         hoverOffset: 20,
-        // backgroundColor: [
-        //   "rgb(255, 99, 132)",
-        //   "rgb(75, 192, 192)",
-        //   "rgb(255, 205, 86)",
-        //   "rgb(201, 203, 207)",
-        //   "rgb(54, 162, 235)",
-        // ],
       },
     ],
   };
@@ -92,8 +85,8 @@ const RankingPolarAreaChart = ({ id }) => {
         <PolarArea data={data} options={option}></PolarArea>
       </div>
       <p className="text-[#003366] font-semibold">
-        You are {pos}
-        {l} Rank
+        You are ranked {pos}
+        {l}
       </p>
     </div>
   );

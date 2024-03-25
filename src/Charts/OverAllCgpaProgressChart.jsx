@@ -1,4 +1,4 @@
-import { Card, ProgressCircle } from "@tremor/react";
+import { ProgressCircle } from "@tremor/react";
 
 export function OverAllCgpaProgressChart({ cgpa }) {
   const value = cgpa * 10;

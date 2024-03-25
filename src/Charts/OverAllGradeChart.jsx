@@ -1,6 +1,6 @@
 import { Chart as ChartJs, ArcElement, Tooltip, Legend } from "chart.js";
 
-import { Pie, Doughnut } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 import gradeCount from "../utils/gradeCount";
 
 ChartJs.register(ArcElement, Tooltip, Legend);
@@ -11,8 +11,6 @@ const OverAllGradeChart = ({ Student }) => {
   );
 
   const dataLabels = gradeCount(a);
-
-  // console.log(data);
 
   const data = {
     labels: ["O", "A+", "A", "B+", "B", "C", "RA"],

@@ -1,7 +1,6 @@
 import React from "react";
 import db from "../data/db.json";
 import gradeCount from "../utils/gradeCount";
-import GradeCountLineChart from "../Charts/GradeCountLineChart";
 import GradeCountPieChart from "../Charts/GradeCountPieChart";
 import OverAllGradeChart from "../Charts/OverAllGradeChart";
 
@@ -16,18 +15,15 @@ const Grades = ({ Student }) => {
 
   return (
     <div className="flex justify-center items-center gap-5">
-      {/* <div>
-        <GradeCountLineChart val={val} />
-      </div> */}
       <div className="">
         <p className=" text-4xl p-10 font-bold flex justify-center items-center">
-          All Student Grade Count
+          Grade Counts for All Students
         </p>
         <GradeCountPieChart val={val} />
       </div>
       <div>
         <p className=" text-4xl p-10 font-bold flex justify-center items-center">
-          Individual Grade Count
+          Individual Grade Counts
         </p>
         <OverAllGradeChart Student={Student} />
       </div>

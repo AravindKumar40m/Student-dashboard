@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Aravind",
+    "name": "varun",
     "rollNo": 2021242001,
     "password": 2001,
     "years": [
@@ -312,7 +312,7 @@
   },
   {
     "id": 2,
-    "name": "Arun",
+    "name": "Aravind",
     "rollNo": 2021242002,
     "password": 2002,
     "years": [
@@ -934,7 +934,7 @@
   },
   {
     "id": 4,
-    "name": "Emily",
+    "name": "Arun",
     "rollNo": 2021242004,
     "password": 2004,
     "years": [
@@ -1203,7 +1203,7 @@
   },
   {
     "id": 5,
-    "name": "Daniel",
+    "name": "Raja",
     "rollNo": 2021242005,
     "password": 2005,
     "years": [
@@ -1472,7 +1472,7 @@
   },
   {
     "id": 6,
-    "name": "Sophia",
+    "name": "vimal",
     "rollNo": 2021242006,
     "password": 2006,
     "years": [
@@ -1741,7 +1741,7 @@
   },
   {
     "id": 7,
-    "name": "Michael",
+    "name": "shazz",
     "rollNo": 2021242007,
     "password": 2007,
     "years": [
@@ -2010,7 +2010,7 @@
   },
   {
     "id": 8,
-    "name": "Jessica",
+    "name": "Sathya",
     "rollNo": 2021242008,
     "password": 2008,
     "years": [
