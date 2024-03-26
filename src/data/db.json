@@ -336,31 +336,31 @@
               },
               {
                 "name": "Applied Physics",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 4,
                 "attendance_percentage": 82
               },
               {
                 "name": "Digital Systems",
-                "grade": "B+",
+                "grade": "C",
                 "credit": 5,
                 "attendance_percentage": 88
               },
               {
                 "name": "Problem Solving and C Programming",
-                "grade": "A",
+                "grade": "C",
                 "credit": 3,
                 "attendance_percentage": 85
               },
               {
                 "name": "Communication Skill Laboratory",
-                "grade": "A+",
+                "grade": "B",
                 "credit": 2,
                 "attendance_percentage": 90
               },
               {
                 "name": "C Programming Laboratory",
-                "grade": "RA",
+                "grade": "A",
                 "credit": 2,
                 "attendance_percentage": 80
               }
@@ -389,7 +389,7 @@
               },
               {
                 "name": "Object Oriented Programming in C++",
-                "grade": "A+",
+                "grade": "B+",
                 "credit": 4,
                 "attendance_percentage": 94
               },
@@ -401,13 +401,13 @@
               },
               {
                 "name": "Computer Architecture",
-                "grade": "A",
+                "grade": "B",
                 "credit": 3,
                 "attendance_percentage": 85
               },
               {
                 "name": "Data Structures Laboratory",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 2,
                 "attendance_percentage": 95
               }
@@ -429,37 +429,37 @@
               },
               {
                 "name": "Combinatorics and Graph Theory",
-                "grade": "A",
+                "grade": "B+",
                 "credit": 4,
                 "attendance_percentage": 82
               },
               {
                 "name": "Microprocessor and Applications",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 5,
                 "attendance_percentage": 71
               },
               {
                 "name": "Operating Systems",
-                "grade": "A",
+                "grade": "B+",
                 "credit": 3,
                 "attendance_percentage": 79
               },
               {
                 "name": "Signals and Systems",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 4,
                 "attendance_percentage": 89
               },
               {
                 "name": "Operating Systems Laboratory",
-                "grade": "B+",
+                "grade": "A+",
                 "credit": 2,
                 "attendance_percentage": 82
               },
               {
                 "name": "Python Programming Laboratory",
-                "grade": "A+",
+                "grade": "B+",
                 "credit": 2,
                 "attendance_percentage": 91
               }
@@ -470,25 +470,25 @@
             "subjects": [
               {
                 "name": "Probability and Statistics",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 4,
                 "attendance_percentage": 94
               },
               {
                 "name": "Theory of Computation",
-                "grade": "O",
+                "grade": "A",
                 "credit": 4,
                 "attendance_percentage": 99
               },
               {
                 "name": "Database Management Systems",
-                "grade": "A",
+                "grade": "B+",
                 "credit": 3,
                 "attendance_percentage": 87
               },
               {
                 "name": "Java and Internet Programming",
-                "grade": "A+",
+                "grade": "B+",
                 "credit": 3,
                 "attendance_percentage": 93
               },
@@ -500,19 +500,19 @@
               },
               {
                 "name": "Java and Internet Programming Laboratory",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 2,
                 "attendance_percentage": 92
               },
               {
                 "name": "Database Management Systems Laboratory",
-                "grade": "A",
+                "grade": "O",
                 "credit": 2,
                 "attendance_percentage": 84
               },
               {
                 "name": "Computational Laboratory using R",
-                "grade": "A+",
+                "grade": "O",
                 "credit": 2,
                 "attendance_percentage": 90
               }
@@ -528,43 +528,43 @@
             "subjects": [
               {
                 "name": "Advanced Database Management systems",
-                "grade": "A+",
+                "grade": "B",
                 "credit": 4,
                 "attendance_percentage": 93
               },
               {
                 "name": "Software Engineering",
-                "grade": "A+",
+                "grade": "C",
                 "credit": 3,
                 "attendance_percentage": 72
               },
               {
                 "name": "Data Warehousing and Mining",
-                "grade": "A",
+                "grade": "B+",
                 "credit": 4,
                 "attendance_percentage": 65
               },
               {
                 "name": "Design and Analysis of Algorithm",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 4,
                 "attendance_percentage": 56
               },
               {
                 "name": "Elective-I",
-                "grade": "A+",
+                "grade": "A",
                 "credit": 3,
                 "attendance_percentage": 90
               },
               {
                 "name": "Elective-II",
-                "grade": "B+",
+                "grade": "A",
                 "credit": 3,
                 "attendance_percentage": 85
               },
               {
                 "name": "Software Development Laboratory",
-                "grade": "RA",
+                "grade": "A",
                 "credit": 2,
                 "attendance_percentage": 79
               }
@@ -1483,40 +1483,46 @@
             "semester": 1,
             "subjects": [
               {
-                "name": "Introduction to Computer Science",
-                "grade": "A",
+                "name": "Communicative English",
+                "grade": "A+",
                 "credit": 3,
-                "attendance_percentage": 85
+                "attendance_percentage": 88
               },
               {
-                "name": "Mathematics I",
-                "grade": "B+",
+                "name": "Calculus",
+                "grade": "A",
                 "credit": 4,
-                "attendance_percentage": 78
+                "attendance_percentage": 95
               },
               {
-                "name": "Physics I",
-                "grade": "A",
-                "credit": 3,
-                "attendance_percentage": 90
-              },
-              {
-                "name": "Programming Fundamentals",
+                "name": "Applied Physics",
                 "grade": "A+",
                 "credit": 4,
-                "attendance_percentage": 92
+                "attendance_percentage": 81
               },
               {
-                "name": "English Composition",
+                "name": "Digital Systems",
                 "grade": "B",
-                "credit": 3,
+                "credit": 5,
                 "attendance_percentage": 80
               },
               {
-                "name": "Programming Lab",
+                "name": "Problem Solving and C Programming",
+                "grade": "A+",
+                "credit": 3,
+                "attendance_percentage": 92
+              },
+              {
+                "name": "Communication Skill Laboratory",
+                "grade": "O",
+                "credit": 2,
+                "attendance_percentage": 97
+              },
+              {
+                "name": "C Programming Laboratory",
                 "grade": "A",
                 "credit": 2,
-                "attendance_percentage": 88
+                "attendance_percentage": 85
               }
             ]
           },
@@ -1524,40 +1530,46 @@
             "semester": 2,
             "subjects": [
               {
-                "name": "Data Structures",
+                "name": "Technical Communication",
                 "grade": "A+",
-                "credit": 4,
-                "attendance_percentage": 94
+                "credit": 3,
+                "attendance_percentage": 78
               },
               {
-                "name": "Mathematics II",
+                "name": "Transform Techniques and Partial Differential Equations",
+                "grade": "A+",
+                "credit": 4,
+                "attendance_percentage": 91
+              },
+              {
+                "name": "Chemistry of Materials",
                 "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 82
-              },
-              {
-                "name": "Physics II",
-                "grade": "A",
-                "credit": 3,
-                "attendance_percentage": 86
-              },
-              {
-                "name": "Introduction to Algorithms",
-                "grade": "A+",
                 "credit": 4,
-                "attendance_percentage": 95
-              },
-              {
-                "name": "Technical Writing",
-                "grade": "B+",
-                "credit": 3,
                 "attendance_percentage": 75
               },
               {
-                "name": "Data Structures Lab",
+                "name": "Object Oriented Programming in C++",
+                "grade": "A+",
+                "credit": 4,
+                "attendance_percentage": 96
+              },
+              {
+                "name": "Data Structures",
+                "grade": "B+",
+                "credit": 4,
+                "attendance_percentage": 82
+              },
+              {
+                "name": "Computer Architecture",
+                "grade": "A+",
+                "credit": 3,
+                "attendance_percentage": 87
+              },
+              {
+                "name": "Data Structures Laboratory",
                 "grade": "A+",
                 "credit": 2,
-                "attendance_percentage": 90
+                "attendance_percentage": 93
               }
             ]
           }
@@ -1570,40 +1582,46 @@
             "semester": 3,
             "subjects": [
               {
-                "name": "Computer Networks",
-                "grade": "A",
+                "name": "Logic and Abstract Algebra",
+                "grade": "B+",
+                "credit": 4,
+                "attendance_percentage": 75
+              },
+              {
+                "name": "Combinatorics and Graph Theory",
+                "grade": "A+",
                 "credit": 4,
                 "attendance_percentage": 88
               },
               {
-                "name": "Database Management Systems",
-                "grade": "A+",
-                "credit": 4,
-                "attendance_percentage": 91
-              },
-              {
-                "name": "Discrete Mathematics",
-                "grade": "B+",
-                "credit": 3,
-                "attendance_percentage": 79
+                "name": "Microprocessor and Applications",
+                "grade": "A",
+                "credit": 5,
+                "attendance_percentage": 86
               },
               {
                 "name": "Operating Systems",
-                "grade": "A",
-                "credit": 4,
-                "attendance_percentage": 85
-              },
-              {
-                "name": "Software Engineering",
                 "grade": "A+",
                 "credit": 3,
+                "attendance_percentage": 80
+              },
+              {
+                "name": "Signals and Systems",
+                "grade": "A+",
+                "credit": 4,
                 "attendance_percentage": 90
               },
               {
-                "name": "Networking Lab",
-                "grade": "RA",
+                "name": "Operating Systems Laboratory",
+                "grade": "A",
                 "credit": 2,
-                "attendance_percentage": 75
+                "attendance_percentage": 85
+              },
+              {
+                "name": "Python Programming Laboratory",
+                "grade": "A+",
+                "credit": 2,
+                "attendance_percentage": 93
               }
             ]
           },
@@ -1611,40 +1629,52 @@
             "semester": 4,
             "subjects": [
               {
-                "name": "Algorithm Design and Analysis",
+                "name": "Probability and Statistics",
                 "grade": "A+",
                 "credit": 4,
-                "attendance_percentage": 92
-              },
-              {
-                "name": "Computer Architecture",
-                "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 80
+                "attendance_percentage": 96
               },
               {
                 "name": "Theory of Computation",
-                "grade": "A",
-                "credit": 3,
-                "attendance_percentage": 86
-              },
-              {
-                "name": "Web Development",
                 "grade": "A+",
                 "credit": 4,
-                "attendance_percentage": 94
+                "attendance_percentage": 89
               },
               {
-                "name": "Database Management Systems Lab",
+                "name": "Database Management Systems",
+                "grade": "A+",
+                "credit": 3,
+                "attendance_percentage": 95
+              },
+              {
+                "name": "Java and Internet Programming",
                 "grade": "B+",
                 "credit": 3,
                 "attendance_percentage": 78
               },
               {
-                "name": "Software Engineering Lab",
+                "name": "Computer Networks",
+                "grade": "A+",
+                "credit": 4,
+                "attendance_percentage": 91
+              },
+              {
+                "name": "Java and Internet Programming Laboratory",
                 "grade": "A+",
                 "credit": 2,
-                "attendance_percentage": 93
+                "attendance_percentage": 95
+              },
+              {
+                "name": "Database Management Systems Laboratory",
+                "grade": "A",
+                "credit": 2,
+                "attendance_percentage": 85
+              },
+              {
+                "name": "Computational Laboratory using R",
+                "grade": "A",
+                "credit": 2,
+                "attendance_percentage": 90
               }
             ]
           }
@@ -1657,40 +1687,46 @@
             "semester": 5,
             "subjects": [
               {
-                "name": "Artificial Intelligence",
+                "name": "Advanced Database Management systems",
+                "grade": "A+",
+                "credit": 4,
+                "attendance_percentage": 95
+              },
+              {
+                "name": "Software Engineering",
+                "grade": "A+",
+                "credit": 3,
+                "attendance_percentage": 85
+              },
+              {
+                "name": "Data Warehousing and Mining",
                 "grade": "A",
+                "credit": 4,
+                "attendance_percentage": 80
+              },
+              {
+                "name": "Design and Analysis of Algorithm",
+                "grade": "A+",
                 "credit": 4,
                 "attendance_percentage": 88
               },
               {
-                "name": "Machine Learning",
-                "grade": "A+",
-                "credit": 4,
+                "name": "Elective-I",
+                "grade": "A",
+                "credit": 3,
                 "attendance_percentage": 91
               },
               {
-                "name": "Computer Graphics",
-                "grade": "B+",
-                "credit": 3,
-                "attendance_percentage": 79
-              },
-              {
-                "name": "Software Testing",
+                "name": "Elective-II",
                 "grade": "A",
-                "credit": 4,
-                "attendance_percentage": 85
-              },
-              {
-                "name": "Parallel and Distributed Computing",
-                "grade": "A+",
                 "credit": 3,
-                "attendance_percentage": 90
+                "attendance_percentage": 88
               },
               {
-                "name": "Artificial Intelligence Lab",
-                "grade": "RA",
+                "name": "Software Development Laboratory",
+                "grade": "B",
                 "credit": 2,
-                "attendance_percentage": 75
+                "attendance_percentage": 78
               }
             ]
           },
@@ -1698,40 +1734,46 @@
             "semester": 6,
             "subjects": [
               {
-                "name": "Computer Vision",
+                "name": "Operations Research",
                 "grade": "A+",
                 "credit": 4,
-                "attendance_percentage": 92
+                "attendance_percentage": 84
               },
               {
-                "name": "Network Security",
-                "grade": "B",
+                "name": "Computer Graphics and Multimedia",
+                "grade": "C",
                 "credit": 3,
-                "attendance_percentage": 80
+                "attendance_percentage": 85
               },
               {
-                "name": "Information Retrieval",
-                "grade": "A",
-                "credit": 3,
-                "attendance_percentage": 86
-              },
-              {
-                "name": "Cloud Computing",
-                "grade": "A+",
-                "credit": 4,
-                "attendance_percentage": 94
-              },
-              {
-                "name": "Network Security Lab",
+                "name": "Web Technology",
                 "grade": "B+",
                 "credit": 3,
-                "attendance_percentage": 78
+                "attendance_percentage": 87
               },
               {
-                "name": "Information Retrieval Lab",
-                "grade": "A+",
+                "name": "Artificial Intelligence",
+                "grade": "RA",
+                "credit": 4,
+                "attendance_percentage": 83
+              },
+              {
+                "name": "Elective-III",
+                "grade": "RA",
+                "credit": 3,
+                "attendance_percentage": 75
+              },
+              {
+                "name": "Computer Graphics and Multimedia Laboratory",
+                "grade": "B+",
                 "credit": 2,
-                "attendance_percentage": 93
+                "attendance_percentage": 76
+              },
+              {
+                "name": "Mini Project",
+                "grade": "C",
+                "credit": 2,
+                "attendance_percentage": 98
               }
             ]
           }
@@ -2021,40 +2063,46 @@
             "semester": 1,
             "subjects": [
               {
-                "name": "Introduction to Computer Science",
-                "grade": "C",
+                "name": "Communicative English",
+                "grade": "A+",
                 "credit": 3,
-                "attendance_percentage": 70
+                "attendance_percentage": 87
               },
               {
-                "name": "Calculus I",
-                "grade": "A",
-                "credit": 4,
-                "attendance_percentage": 85
-              },
-              {
-                "name": "Physics I",
+                "name": "Calculus",
                 "grade": "B",
-                "credit": 3,
+                "credit": 4,
+                "attendance_percentage": 93
+              },
+              {
+                "name": "Applied Physics",
+                "grade": "A+",
+                "credit": 4,
                 "attendance_percentage": 80
               },
               {
-                "name": "Programming Fundamentals",
-                "grade": "A+",
-                "credit": 4,
-                "attendance_percentage": 90
-              },
-              {
-                "name": "English Composition",
+                "name": "Digital Systems",
                 "grade": "B",
-                "credit": 3,
+                "credit": 5,
                 "attendance_percentage": 79
               },
               {
-                "name": "Programming Lab",
-                "grade": "B+",
+                "name": "Problem Solving and C Programming",
+                "grade": "A",
+                "credit": 3,
+                "attendance_percentage": 91
+              },
+              {
+                "name": "Communication Skill Laboratory",
+                "grade": "A+",
                 "credit": 2,
-                "attendance_percentage": 82
+                "attendance_percentage": 98
+              },
+              {
+                "name": "C Programming Laboratory",
+                "grade": "B",
+                "credit": 2,
+                "attendance_percentage": 86
               }
             ]
           },
@@ -2062,40 +2110,46 @@
             "semester": 2,
             "subjects": [
               {
+                "name": "Technical Communication",
+                "grade": "B",
+                "credit": 3,
+                "attendance_percentage": 76
+              },
+              {
+                "name": "Transform Techniques and Partial Differential Equations",
+                "grade": "A",
+                "credit": 4,
+                "attendance_percentage": 90
+              },
+              {
+                "name": "Chemistry of Materials",
+                "grade": "B+",
+                "credit": 4,
+                "attendance_percentage": 75
+              },
+              {
+                "name": "Object Oriented Programming in C++",
+                "grade": "A+",
+                "credit": 4,
+                "attendance_percentage": 95
+              },
+              {
                 "name": "Data Structures",
                 "grade": "B+",
                 "credit": 4,
-                "attendance_percentage": 82
+                "attendance_percentage": 81
               },
               {
-                "name": "Calculus II",
-                "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 78
-              },
-              {
-                "name": "Physics II",
-                "grade": "RA",
-                "credit": 3,
-                "attendance_percentage": 75
-              },
-              {
-                "name": "Algorithms",
+                "name": "Computer Architecture",
                 "grade": "A",
-                "credit": 4,
-                "attendance_percentage": 88
-              },
-              {
-                "name": "Technical Writing",
-                "grade": "C+",
                 "credit": 3,
-                "attendance_percentage": 68
+                "attendance_percentage": 86
               },
               {
-                "name": "Data Structures Lab",
-                "grade": "RA",
+                "name": "Data Structures Laboratory",
+                "grade": "A",
                 "credit": 2,
-                "attendance_percentage": 75
+                "attendance_percentage": 92
               }
             ]
           }
@@ -2108,40 +2162,46 @@
             "semester": 3,
             "subjects": [
               {
-                "name": "Computer Networks",
+                "name": "Logic and Abstract Algebra",
                 "grade": "B+",
                 "credit": 4,
-                "attendance_percentage": 84
+                "attendance_percentage": 75
               },
               {
-                "name": "Database Management Systems",
-                "grade": "A",
+                "name": "Combinatorics and Graph Theory",
+                "grade": "A+",
                 "credit": 4,
                 "attendance_percentage": 88
               },
               {
-                "name": "Operating Systems",
-                "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 78
-              },
-              {
-                "name": "Software Engineering",
-                "grade": "RA",
-                "credit": 4,
+                "name": "Microprocessor and Applications",
+                "grade": "A",
+                "credit": 5,
                 "attendance_percentage": 86
               },
               {
-                "name": "Computer Architecture",
-                "grade": "B",
+                "name": "Operating Systems",
+                "grade": "A+",
                 "credit": 3,
-                "attendance_percentage": 79
+                "attendance_percentage": 80
               },
               {
-                "name": "Networking Lab",
+                "name": "Signals and Systems",
+                "grade": "A+",
+                "credit": 4,
+                "attendance_percentage": 90
+              },
+              {
+                "name": "Operating Systems Laboratory",
                 "grade": "B+",
                 "credit": 2,
                 "attendance_percentage": 82
+              },
+              {
+                "name": "Python Programming Laboratory",
+                "grade": "A+",
+                "credit": 2,
+                "attendance_percentage": 91
               }
             ]
           },
@@ -2149,40 +2209,52 @@
             "semester": 4,
             "subjects": [
               {
-                "name": "Algorithm Design and Analysis",
-                "grade": "A",
+                "name": "Probability and Statistics",
+                "grade": "A+",
                 "credit": 4,
-                "attendance_percentage": 90
-              },
-              {
-                "name": "Software Testing",
-                "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 77
+                "attendance_percentage": 96
               },
               {
                 "name": "Theory of Computation",
-                "grade": "B+",
-                "credit": 3,
-                "attendance_percentage": 83
-              },
-              {
-                "name": "Web Development",
                 "grade": "A",
                 "credit": 4,
                 "attendance_percentage": 87
               },
               {
-                "name": "Database Management Systems Lab",
-                "grade": "B",
+                "name": "Database Management Systems",
+                "grade": "A+",
                 "credit": 3,
-                "attendance_percentage": 76
+                "attendance_percentage": 95
               },
               {
-                "name": "Software Engineering Lab",
+                "name": "Java and Internet Programming",
+                "grade": "B+",
+                "credit": 3,
+                "attendance_percentage": 78
+              },
+              {
+                "name": "Computer Networks",
+                "grade": "A+",
+                "credit": 4,
+                "attendance_percentage": 91
+              },
+              {
+                "name": "Java and Internet Programming Laboratory",
+                "grade": "A+",
+                "credit": 2,
+                "attendance_percentage": 95
+              },
+              {
+                "name": "Database Management Systems Laboratory",
+                "grade": "A",
+                "credit": 2,
+                "attendance_percentage": 85
+              },
+              {
+                "name": "Computational Laboratory using R",
                 "grade": "B+",
                 "credit": 2,
-                "attendance_percentage": 81
+                "attendance_percentage": 89
               }
             ]
           }
@@ -2195,81 +2267,94 @@
             "semester": 5,
             "subjects": [
               {
-                "name": "Artificial Intelligence",
-                "grade": "A",
-                "credit": 4,
-                "attendance_percentage": 89
-              },
-              {
-                "name": "Machine Learning",
+                "name": "Advanced Database Management systems",
                 "grade": "A+",
                 "credit": 4,
+                "attendance_percentage": 95
+              },
+              {
+                "name": "Software Engineering",
+                "grade": "A+",
+                "credit": 3,
                 "attendance_percentage": 85
               },
               {
-                "name": "Computer Graphics",
-                "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 77
+                "name": "Data Warehousing and Mining",
+                "grade": "B+",
+                "credit": 4,
+                "attendance_percentage": 75
               },
               {
-                "name": "Software Engineering II",
-                "grade": "A",
+                "name": "Design and Analysis of Algorithm",
+                "grade": "A+",
                 "credit": 4,
+                "attendance_percentage": 88
+              },
+              {
+                "name": "Elective-I",
+                "grade": "A",
+                "credit": 3,
                 "attendance_percentage": 91
               },
               {
-                "name": "Parallel and Distributed Computing",
-                "grade": "A+",
+                "name": "Elective-II",
+                "grade": "B+",
                 "credit": 3,
-                "attendance_percentage": 92
+                "attendance_percentage": 85
               },
               {
-                "name": "Artificial Intelligence Lab",
-                "grade": "B+",
+                "name": "Software Development Laboratory",
+                "grade": "RA",
                 "credit": 2,
-                "attendance_percentage": 80
+                "attendance_percentage": 79
               }
             ]
           },
+
           {
             "semester": 6,
             "subjects": [
               {
-                "name": "Computer Vision",
-                "grade": "A",
+                "name": "Operations Research",
+                "grade": "RA",
                 "credit": 4,
-                "attendance_percentage": 90
+                "attendance_percentage": 84
               },
               {
-                "name": "Network Security",
-                "grade": "B+",
+                "name": "Computer Graphics and Multimedia",
+                "grade": "A",
+                "credit": 3,
+                "attendance_percentage": 85
+              },
+              {
+                "name": "Web Technology",
+                "grade": "A+",
+                "credit": 3,
+                "attendance_percentage": 87
+              },
+              {
+                "name": "Artificial Intelligence",
+                "grade": "B",
+                "credit": 4,
+                "attendance_percentage": 83
+              },
+              {
+                "name": "Elective-III",
+                "grade": "A",
                 "credit": 3,
                 "attendance_percentage": 75
               },
               {
-                "name": "Information Retrieval",
-                "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 78
-              },
-              {
-                "name": "Cloud Computing",
-                "grade": "A+",
-                "credit": 4,
-                "attendance_percentage": 86
-              },
-              {
-                "name": "Network Security Lab",
-                "grade": "B",
-                "credit": 3,
-                "attendance_percentage": 79
-              },
-              {
-                "name": "Information Retrieval Lab",
+                "name": "Computer Graphics and Multimedia Laboratory",
                 "grade": "B+",
                 "credit": 2,
-                "attendance_percentage": 82
+                "attendance_percentage": 76
+              },
+              {
+                "name": "Mini Project",
+                "grade": "A+",
+                "credit": 2,
+                "attendance_percentage": 98
               }
             ]
           }

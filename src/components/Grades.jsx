@@ -17,7 +17,7 @@ const Grades = ({ Student }) => {
     <div className="flex justify-center items-center gap-5">
       <div className="">
         <p className=" text-4xl p-10 font-bold flex justify-center items-center">
-          Grade Counts for All Students
+          Grade Counts of All Students
         </p>
         <GradeCountPieChart val={val} />
       </div>

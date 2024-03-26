@@ -1,7 +1,7 @@
 import gpa from "./gpa";
 import gradePoints from "./gradepoints";
 
-function getAllSemesterGpa(a) {
+function getAllSemesterGpaAndCgpa(a) {
   let semesters = [];
 
   let semestersCount = 0;
@@ -31,14 +31,14 @@ function getAllSemesterGpa(a) {
     GPA: gpa(m).toFixed(2),
   }));
 
-  // const overallCGPA = gpa(semesters).toFixed(2);
+  const overallCGPA = gpa(semesters).toFixed(2);
 
-  // const res = [];
+  const res = [];
 
-  // res.push(overallCGPA);
-  // res.push(data);
+  res.push(overallCGPA);
+  res.push(data);
 
-  return data;
+  return res;
 }
 
-export default getAllSemesterGpa;
+export default getAllSemesterGpaAndCgpa;

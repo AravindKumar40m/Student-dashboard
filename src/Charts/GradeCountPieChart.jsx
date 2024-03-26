@@ -20,7 +20,7 @@ const GradeCountPieChart = ({ val }) => {
           "green",
           "grey",
         ],
-        hoverOffset: 20,
+        hoverOffset: 30,
       },
     ],
   };

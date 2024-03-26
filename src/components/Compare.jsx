@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import db from "../data/db.json";
-import getAllSemesterGpa from "../utils/getAllSemesterGpa";
+import getAllSemesterGpaAndCgpa from "../utils/getAllSemesterGpaAndCgpa";
 import { OverAllGpaCompareAreaChart } from "../Charts/OverAllGpaCompareAreachart";
 import { OverAllCgpaProgressChart } from "../Charts/OverAllCgpaProgressChart";
 
@@ -13,11 +13,11 @@ const Compare = ({ Student }) => {
     const a = db.find((d) => d.rollNo === Number(e));
 
     if (a) {
-      const currentStudentdata = getAllSemesterGpa(Student);
+      const currentStudentdata = getAllSemesterGpaAndCgpa(Student);
       const currentStudentOverallCgpa = currentStudentdata[0];
       const currentStudentSemWiseCgpa = currentStudentdata[1];
 
-      const selectedStudentdata = getAllSemesterGpa(a);
+      const selectedStudentdata = getAllSemesterGpaAndCgpa(a);
       const selectedStudentOverallCgpa = selectedStudentdata[0];
       const selectedStudentSemWiseCgpa = selectedStudentdata[1];
 
@@ -37,8 +37,6 @@ const Compare = ({ Student }) => {
       setSelecStuOverAllCgpa("");
     }
   };
-
-  console.log(comparisonData);
 
   return (
     <div>

@@ -4,7 +4,6 @@ const dataFormatter = (number) =>
   Intl.NumberFormat("us").format(number).toString();
 
 export function OverAllGpaAreaChart({ gpa }) {
-  console.log(gpa);
   return (
     <AreaChart
       className="h-80"
@@ -14,6 +13,7 @@ export function OverAllGpaAreaChart({ gpa }) {
       colors={["indigo", "rose"]}
       valueFormatter={dataFormatter}
       yAxisWidth={60}
+      showAnimation
       onValueChange={(v) => console.log(v)}
     />
   );
