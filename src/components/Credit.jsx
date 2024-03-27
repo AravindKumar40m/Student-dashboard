@@ -12,20 +12,11 @@ import db from "../data/db.json";
 
 ChartJs.register(ArcElement, Tooltip, Legend, RadialLinearScale);
 
-const Credit = () => {
+const Credit = ({ Student }) => {
   const filterSubject = db.map((d) =>
     d.years.flatMap((year) =>
       year.semesters.flatMap((sem) =>
         sem.subjects.filter((sub) => sub.grade !== "RA")
-      )
-    )
-  );
-  console.log(
-    db.map((d) =>
-      d.years.flatMap((year) =>
-        year.semesters.flatMap((sem) =>
-          sem.subjects.filter((sub) => sub.grade === "RA")
-        )
       )
     )
   );
@@ -37,7 +28,6 @@ const Credit = () => {
   const label = [];
 
   db.map((d) => label.push(d.name));
-  console.log(label);
 
   const data = {
     labels: label,
@@ -55,7 +45,7 @@ const Credit = () => {
           "purple",
           "black",
         ],
-        hoverOffset: 100,
+        hoverOffset: 10,
       },
     ],
   };
@@ -65,11 +55,15 @@ const Credit = () => {
   return (
     <div className="flex justify-center items-center flex-col">
       <p className="text-[#003366] font-extrabold text-4xl mt-8">
-        All Credit in Class
+        Overall student Credits
       </p>
-      <div className="w-96 h-96 mt-8">
+      <div className="w-[500px] h-[500px] mt-8">
         <PolarArea data={data} options={option}></PolarArea>
       </div>
+      <p className="text-[#003366] font-extrabold text-3xl mt-8">
+        {Student.name} earned {totalCredit[Student.id - 1]} credits out of a
+        total of 139.
+      </p>
     </div>
   );
 };

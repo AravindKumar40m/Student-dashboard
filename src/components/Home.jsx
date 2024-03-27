@@ -7,7 +7,7 @@ import gradePoints from "../utils/gradepoints";
 import { OverAllGpaAreaChart } from "../Charts/OverAllGpaAreachart";
 import { OverAllCgpaProgressChart } from "../Charts/OverAllCgpaProgressChart";
 import RankingPolarAreaChart from "../Charts/RankingPolarAreaChart";
-import { Card } from "flowbite-react";
+import Card from "../Animations/Card.jsx";
 
 const Home = ({ Student, id }) => {
   let semesters = [];
@@ -52,15 +52,8 @@ const Home = ({ Student, id }) => {
         <div className="flex items-center text-[#003366]  text-4xl  font-semibold">
           <p>Dashboard</p>
         </div>
-        <div className="p-5 pl-[150px]">
-          <Card href="#" className="max-w-sm m-4 w-[250px]">
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              NAME: {Student.name}
-            </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              ROLL-NO: {Student.rollNo}
-            </p>
-          </Card>
+        <div className="p-5 pl-[150px] relative right-[400px] bottom-[70px]">
+          <Card Student={Student} />
         </div>
 
         <div className="flex justify-center items-center absolute  left-[700px] top-[90px]">
@@ -70,10 +63,9 @@ const Home = ({ Student, id }) => {
           <OverAllCgpaProgressChart cgpa={overallCGPA} />
         </div>
 
-        <br />
-        <hr className="border-2 w-[100px] relative left-[500px] " />
+        <hr className="border-2 w-[100px] relative left-[500px] bottom-[100px] " />
 
-        <div className="h-[500px] w-[500px] p-5 ">
+        <div className="h-[500px] w-[500px] p-5 relative bottom-[100px]">
           <RankingPolarAreaChart id={id} />
         </div>
 
@@ -85,9 +77,12 @@ const Home = ({ Student, id }) => {
           <AgGridReact rowData={rowdata} columnDefs={columnDefs} />
         </div>
 
-        <hr className="border-2 w-[100px] relative left-[500px] top-[150px]" />
+        <hr className="border-2 w-[100px] relative left-[500px] top-[50px]" />
 
-        <div className="relative top-[150px] p-[50px]">
+        <div className="relative top-[20px] p-[50px]">
+          <p className="text-center font-bold  text-2xl text-blue-500 p-4 ">
+            Each Semester-GPA
+          </p>
           <OverAllGpaAreaChart gpa={rowdata} />
         </div>
       </div>

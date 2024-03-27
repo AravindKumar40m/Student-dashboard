@@ -35,7 +35,7 @@ const OverAllGradeChart = ({ Student }) => {
 
   return (
     <div>
-      <div className="w-[600px] h-[600px]">
+      <div className="w-[500px] h-[500px]">
         <Doughnut data={data} options={option}></Doughnut>
       </div>
     </div>

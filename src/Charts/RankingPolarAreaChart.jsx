@@ -70,7 +70,7 @@ const RankingPolarAreaChart = ({ id }) => {
         backgroundColor: CGPA.map((m, index) =>
           index + 1 === id ? "rgb(255, 99, 132)" : "rgb(255, 205, 86)"
         ),
-        hoverOffset: 20,
+        hoverOffset: 10,
       },
     ],
   };
@@ -79,7 +79,9 @@ const RankingPolarAreaChart = ({ id }) => {
 
   return (
     <div className="flex flex-col justify-center items-center p-10 gap-10 text-4xl ">
-      <p className="text-[#003366] font-extrabold">All CGPA in Class</p>
+      <p className="text-[#003366] font-extrabold pl-10">
+        CGPA Comparison <span className="pl-16">with Class</span>
+      </p>
 
       <div className="h-[400px] w-[400px]">
         <PolarArea data={data} options={option}></PolarArea>

@@ -15,7 +15,7 @@ const Grades = ({ Student }) => {
 
   return (
     <div className="flex justify-center items-center gap-5">
-      <div className="">
+      <div>
         <p className=" text-4xl p-10 font-bold flex justify-center items-center">
           Grade Counts of All Students
         </p>

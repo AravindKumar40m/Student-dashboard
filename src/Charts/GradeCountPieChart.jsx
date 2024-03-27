@@ -29,7 +29,7 @@ const GradeCountPieChart = ({ val }) => {
 
   return (
     <div className="">
-      <div className="w-[600px] h-[600px]">
+      <div className="w-[500px] h-[500px]">
         <Pie data={data} options={option}></Pie>
       </div>
     </div>

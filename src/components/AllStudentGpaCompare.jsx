@@ -40,7 +40,7 @@ const AllStudentGpaCompare = ({ Student, id }) => {
     <div>
       <div>
         <p className="flex justify-center items-center text-4xl font-bold p-10 pb-20">
-          Comparison of Each Semester
+          Comparison of Each Semester GPA with class
         </p>
         <AllGpaComEachSemAreachart gpa={Data} categories={y} color={color} />
       </div>

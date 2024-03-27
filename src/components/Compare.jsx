@@ -9,6 +9,8 @@ const Compare = ({ Student }) => {
   const [currStuOverAllCgpa, setCurrStuOverAllCgpa] = useState("");
   const [selecStuOverAllCgpa, setSelecStuOverAllCgpa] = useState("");
 
+  const rollNoFilter = db.filter((d) => d.rollNo !== Student.rollNo);
+
   const handlesubmit = (e) => {
     const a = db.find((d) => d.rollNo === Number(e));
 
@@ -51,7 +53,7 @@ const Compare = ({ Student }) => {
             onChange={(e) => handlesubmit(e.target.value)}
           >
             <option value="default">Select...</option>
-            {db.map((d, key) => (
+            {rollNoFilter.map((d, key) => (
               <option key={key}>{d.rollNo}</option>
             ))}
           </select>
