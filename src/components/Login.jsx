@@ -49,11 +49,11 @@ function LoginForm({ setIsLogin, setStudent }) {
         <img src={studentLogo} />
         {valid && <p className=" text-red-600 text-2xl font-medium">{valid}</p>}
 
-        <div className="w-[400px] bg-orange-300 rounded-2xl p-5 relative flex flex-col top-6">
+        <div className="w-[400px] bg-gradient-to-br from-blue-700 via-purple-500 to-purple-700 rounded-2xl p-5 relative flex flex-col top-6">
           <div className="mb-4">
             <label
               htmlFor="RollNo"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-white"
             >
               Register Number
             </label>
@@ -71,7 +71,7 @@ function LoginForm({ setIsLogin, setStudent }) {
           <div className="mb-4">
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-white"
             >
               Password
             </label>

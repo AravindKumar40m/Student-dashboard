@@ -360,7 +360,7 @@
               },
               {
                 "name": "C Programming Laboratory",
-                "grade": "A",
+                "grade": "RA",
                 "credit": 2,
                 "attendance_percentage": 80
               }
@@ -407,7 +407,7 @@
               },
               {
                 "name": "Data Structures Laboratory",
-                "grade": "A",
+                "grade": "RA",
                 "credit": 2,
                 "attendance_percentage": 95
               }
@@ -1903,7 +1903,7 @@
               },
               {
                 "name": "Problem Solving and C Programming",
-                "grade": "B",
+                "grade": "RA",
                 "credit": 3,
                 "attendance_percentage": 90
               },
@@ -1984,7 +1984,7 @@
               },
               {
                 "name": "Combinatorics and Graph Theory",
-                "grade": "A",
+                "grade": "RA",
                 "credit": 4,
                 "attendance_percentage": 85
               },
@@ -2055,7 +2055,7 @@
               },
               {
                 "name": "Java and Internet Programming Laboratory",
-                "grade": "A+",
+                "grade": "RA",
                 "credit": 2,
                 "attendance_percentage": 92
               },
@@ -2101,7 +2101,7 @@
               },
               {
                 "name": "Design and Analysis of Algorithm",
-                "grade": "A+",
+                "grade": "RA",
                 "credit": 4,
                 "attendance_percentage": 86
               },
@@ -2136,7 +2136,7 @@
               },
               {
                 "name": "Computer Graphics and Multimedia",
-                "grade": "A+",
+                "grade": "RA",
                 "credit": 3,
                 "attendance_percentage": 85
               },

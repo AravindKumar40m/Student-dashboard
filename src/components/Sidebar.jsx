@@ -31,6 +31,16 @@ const Sidebar = () => {
           </li>
           <li>
             <NavLink
+              to="/credit"
+              className={`flex items-center gap-2 text-gray-600 hover:text-gray-800 hover:bg-purple-500 rounded-md py-3 px-4 transition duration-300 ${
+                location.pathname === "/credit" && "bg-purple-500"
+              }`}
+            >
+              <span>Credit</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/compare"
               className={`flex items-center gap-2 text-gray-600 hover:text-gray-800 hover:bg-purple-500 rounded-md py-3 px-4 transition duration-300 ${
                 location.pathname === "/compare" && "bg-purple-500"
@@ -57,16 +67,6 @@ const Sidebar = () => {
               }`}
             >
               <span>Attendance</span>
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/credit"
-              className={`flex items-center gap-2 text-gray-600 hover:text-gray-800 hover:bg-purple-500 rounded-md py-3 px-4 transition duration-300 ${
-                location.pathname === "/credit" && "bg-purple-500"
-              }`}
-            >
-              <span>Credit</span>
             </NavLink>
           </li>
         </ul>
