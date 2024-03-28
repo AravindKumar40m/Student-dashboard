@@ -26,30 +26,33 @@ The Student Dashboard is a web application designed to visualize student data, i
 
 1. Clone the repository:
 
-bash
+```bash
 git clone https://github.com/AravindKumar40m/Student-dashboard.git
+```
 
 2. Install dependencies:
 
-bash
+```bash
 cd Student-dashboard
 npm install
+```
 
 3. Start the development server:
 
-bash
+```bash
 npm start
+```
 
 ## UI
 
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/Home-1.jpg" alt="Alt text" title="Home-1 page-1">
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/Home-2.png" alt="Alt text" title="Home-2 page-1">
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/Home-3.png" alt="Alt text" title="Home-3 page-1">
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/grades.png" alt="Alt text" title="Grades page-2">
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/credit.png" alt="Alt text" title="Credit page-3">
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/comapare.png" alt="Alt text" title="Comparison page-4">
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/allGpa.png" alt="Alt text" title="All-GPA page-5">
-<img src="https://github.com/AravindKumar40m/Student-dashboard/tree/main/src/image/attendance.png" alt="Alt text" title="Attendance page-6">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/Home-1.jpg" alt="Alt text" title="Home-1 page-1">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/Home-2.png" alt="Alt text" title="Home-2 page-1">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/Home-3.png" alt="Alt text" title="Home-3 page-1">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/grades.png" alt="Alt text" title="Grades page-2">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/credit.png" alt="Alt text" title="Credit page-3">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/comapare.png" alt="Alt text" title="Comparison page-4">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/allGpa.png" alt="Alt text" title="All-GPA page-5">
+<img src="https://github.com/AravindKumar40m/Student-dashboard/blob/main/src/assets/image/attendance.png" alt="Alt text" title="Attendance page-6">
 
 ## Contributing
 
